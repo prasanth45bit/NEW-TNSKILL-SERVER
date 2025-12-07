@@ -1,0 +1,201 @@
+[
+  {
+    "id": "s1",
+    "name": "Riverside Primary School",
+    "category": "schools",
+    "address": "12 River St, Central",
+    "lat": 12.9716,
+    "lng": 77.5946,
+    "description": "Public primary school with playground and library.",
+    "contact": "+1-555-0101",
+    "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "s2",
+    "name": "Lincoln High School",
+    "category": "schools",
+    "address": "45 Oak Ave, Northside",
+    "lat": 12.9750,
+    "lng": 77.6000,
+    "description": "High school offering STEM and arts programs.",
+    "contact": "+1-555-0102",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "h1",
+    "name": "City General Hospital",
+    "category": "hospitals",
+    "address": "100 Health Blvd, Central",
+    "lat": 12.9700,
+    "lng": 77.5900,
+    "description": "24/7 emergency services with specialty clinics.",
+    "contact": "+1-555-0200",
+    "image": "https://images.unsplash.com/photo-1586773860417-6a8f2d6d2a2b?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "h2",
+    "name": "St. Mary's Clinic",
+    "category": "hospitals",
+    "address": "9 Church Lane, East End",
+    "lat": 12.9800,
+    "lng": 77.6050,
+    "description": "Outpatient clinic and diagnostic center.",
+    "contact": "+1-555-0201",
+    "image": "https://images.unsplash.com/photo-1580281658626-4b9f2f9b1bcd?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "t1",
+    "name": "Central Bus Station",
+    "category": "transport",
+    "address": "1 Transit Plaza, Central",
+    "lat": 12.9650,
+    "lng": 77.5905,
+    "description": "Major interchange for bus and coach services.",
+    "contact": "+1-555-0300",
+    "image": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "t2",
+    "name": "Metroline: Central",
+    "category": "transport",
+    "address": "Underground, Central",
+    "lat": 12.9660,
+    "lng": 77.5920,
+    "description": "Metro station with connections across the city.",
+    "contact": "+1-555-0301",
+    "image": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "a1",
+    "name": "Grand Museum",
+    "category": "attractions",
+    "address": "200 Heritage Rd",
+    "lat": 12.9780,
+    "lng": 77.5960,
+    "description": "Museum housing city history and rotating exhibits.",
+    "contact": "+1-555-0400",
+    "image": "https://images.unsplash.com/photo-1526312426976-3d6cc2a0b3d6?w=800&h=600&fit=crop"
+  },
+  {
+    "id": "a2",
+    "name": "Lakeside Park",
+    "category": "attractions",
+    "address": "Lakeside Drive",
+    "lat": 12.9820,
+    "lng": 77.6100,
+    "description": "Large public park with walking trails and boating.",
+    "contact": "+1-555-0401",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&h=600&fit=crop"
+  }
+  ,
+  {
+    "id": "tr1",
+    "name": "Route 101 - Central to Tech Park",
+    "category": "transport",
+    "address": "City Transport Corp",
+    "description": "Runs every 10 min",
+    "contact": "City Transport Corp",
+    "capacity": 50,
+    "image": "https://example.com/tr1.jpg",
+    "locationLink": "https://maps.com/tr1"
+  },
+  {
+    "id": "tr2",
+    "name": "Route 202 - Airport to Market",
+    "category": "transport",
+    "address": "MetroBus",
+    "description": "Express service",
+    "contact": "MetroBus",
+    "capacity": 55,
+    "image": "https://example.com/tr2.jpg",
+    "locationLink": "https://maps.com/tr2"
+  },
+  {
+    "id": "tr3",
+    "name": "Blue Line",
+    "category": "transport",
+    "address": "MetroRail",
+    "description": "Underground metro",
+    "contact": "MetroRail",
+    "capacity": 300,
+    "image": "https://example.com/tr3.jpg",
+    "locationLink": "https://maps.com/tr3"
+  },
+  {
+    "id": "tr4",
+    "name": "Green Line",
+    "category": "transport",
+    "address": "MetroRail",
+    "description": "Direct connectivity",
+    "contact": "MetroRail",
+    "capacity": 280,
+    "image": "https://example.com/tr4.jpg",
+    "locationLink": "https://maps.com/tr4"
+  },
+  {
+    "id": "tr5",
+    "name": "Citywide Service",
+    "category": "transport",
+    "address": "SmartTaxi",
+    "description": "24/7 available",
+    "contact": "SmartTaxi",
+    "capacity": 4,
+    "image": "https://example.com/tr5.jpg",
+    "locationLink": "https://maps.com/tr5"
+  },
+  {
+    "id": "tr6",
+    "name": "Local Routes",
+    "category": "transport",
+    "address": "E-Rick Assoc",
+    "description": "Eco-friendly transport",
+    "contact": "E-Rick Assoc",
+    "capacity": 3,
+    "image": "https://example.com/tr6.jpg",
+    "locationLink": "https://maps.com/tr6"
+  },
+  {
+    "id": "tr7",
+    "name": "Station to Station",
+    "category": "transport",
+    "address": "SmartBike",
+    "description": "App-based booking",
+    "contact": "SmartBike",
+    "capacity": 1,
+    "image": "https://example.com/tr7.jpg",
+    "locationLink": "https://maps.com/tr7"
+  },
+  {
+    "id": "tr8",
+    "name": "Flexible Routes",
+    "category": "transport",
+    "address": "City Auto Union",
+    "description": "Meter-based fare",
+    "contact": "City Auto Union",
+    "capacity": 3,
+    "image": "https://example.com/tr8.jpg",
+    "locationLink": "https://maps.com/tr8"
+  },
+  {
+    "id": "tr9",
+    "name": "Tech Park Shuttle",
+    "category": "transport",
+    "address": "Smart Shuttle",
+    "description": "Office hours only",
+    "contact": "Smart Shuttle",
+    "capacity": 20,
+    "image": "https://example.com/tr9.jpg",
+    "locationLink": "https://maps.com/tr9"
+  },
+  {
+    "id": "tr10",
+    "name": "Riverfront Route A",
+    "category": "transport",
+    "address": "SmartBoat",
+    "description": "Tourist ferry service",
+    "contact": "SmartBoat",
+    "capacity": 100,
+    "image": "https://example.com/tr10.jpg",
+    "locationLink": "https://maps.com/tr10"
+  }
+]

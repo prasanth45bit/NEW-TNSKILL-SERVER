@@ -1,0 +1,142 @@
+.complaints-view-page {
+  padding: 26px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 22px;
+}
+
+.cv-filter-bar {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+/* Search Box */
+.cv-search-box {
+  position: relative;
+  flex: 1;
+  min-width: 260px;
+}
+
+.cv-search-box input {
+  width: 100%;
+  padding: 12px 40px 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.cv-search-box input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  outline: none;
+}
+
+.cv-search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cv-select {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  cursor: pointer;
+}
+
+
+.cv-table-wrapper {
+  overflow-x: auto;
+}
+
+.cv-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+}
+
+.cv-table th,
+.cv-table td {
+  padding: 14px;
+  font-size: 15px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.cv-table th {
+  background: #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.cv-table tr:hover {
+  background: #f8fafc;
+}
+
+.cv-tag {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.cv-cat {
+  background: #e0efff;
+  color: #1d4ed8;
+}
+
+.cv-open {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.cv-progress {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.cv-resolved {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+/* Priority */
+.cv-pr-high {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.cv-pr-medium {
+  background: #ffedd5;
+  color: #ea580c;
+}
+
+.cv-pr-low {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+/* Empty / Loading */
+.cv-empty,
+.cv-loading {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #64748b;
+}

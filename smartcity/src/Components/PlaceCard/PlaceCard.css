@@ -1,0 +1,36 @@
+.place-card {
+  background: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  margin-bottom: 12px;
+}
+.place-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.place-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+}
+.place-category {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: capitalize;
+}
+.place-desc {
+  font-size: 13px;
+  color: #374151;
+  margin-bottom: 8px;
+}
+.place-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.place-card { display:flex; gap:12px; align-items:flex-start; cursor:pointer; }
+.place-thumb { width:140px; height:96px; object-fit:cover; border-radius:8px; flex-shrink:0; }
+.place-card-body { flex:1; }

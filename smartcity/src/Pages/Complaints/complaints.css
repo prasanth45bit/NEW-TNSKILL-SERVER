@@ -1,0 +1,115 @@
+.rc-page {
+  padding: 24px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.rc-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #1e293b;
+}
+
+.rc-warning {
+  background: #fff3cd;
+  padding: 12px;
+  border-left: 4px solid #facc15;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #854d0e;
+}
+
+/* Card container */
+.rc-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  max-width: 680px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Inputs */
+.rc-card input,
+.rc-card select,
+.rc-card textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  font-size: 15px;
+  transition: 0.25s;
+  background: white;
+}
+
+.rc-card input:focus,
+.rc-card select:focus,
+.rc-card textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37,99,235,0.2);
+  outline: none;
+}
+
+label {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* Description area */
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Row (category + priority) */
+.rc-row {
+  display: flex;
+  gap: 14px;
+}
+
+.rc-col {
+  flex: 1;
+}
+
+/* Image preview */
+.rc-preview {
+  width: 140px;
+  border-radius: 10px;
+  margin-top: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Submit button */
+.rc-submit {
+  background: #2563eb;
+  border: none;
+  padding: 12px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 8px;
+  transition: 0.25s;
+}
+
+.rc-submit:hover {
+  background: #1d4ed8;
+}
+
+.rc-submit:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Message */
+.rc-message {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e40af;
+}

@@ -1,0 +1,388 @@
+/* -------------- GLOBAL -------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+  color: #1e1e1e;
+}
+
+.fade-in {
+  animation: fade 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.home-main {
+  padding: 20px;
+}
+
+/* -------------- HEADER -------------- */
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  background: #ffffff;
+  border-radius: 14px;
+  margin-bottom: 22px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.logo-pill {
+  width: 40px;
+  height: 40px;
+  background: #4f46e5;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.site-subtitle {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+  background: #f0f1f5;
+  border-radius: 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.9rem;
+}
+
+.alert-btn {
+  color:  #4f46e5;
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  gap: 6px;
+  transition: 0.2s;
+}
+
+.alert-btn:hover {
+  background: #3e3abf;
+  color: white;
+}
+
+/* -------------- METRICS -------------- */
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.smooth-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.smooth-card:hover {
+  transform: translateY(-3px);
+}
+
+.metric-label {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.metric-value-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.metric-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.metric-delta {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.metric-delta.pos {
+  color: #16a34a;
+}
+
+.metric-delta.neg {
+  color: #dc2626;
+}
+
+/* -------------- GRID LAYOUT -------------- */
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* -------------- MAP -------------- */
+
+.map-card {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 16px;
+  position: relative;
+}
+
+.map-label {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(79, 70, 229, 0.9);
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  font-size: 0.85rem;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.map-frame {
+  width: 100%;
+  height: 260px;
+  border: none;
+  border-radius: 16px;
+}
+
+/* -------------- SERVICES -------------- */
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.service-btn {
+  all: unset;
+  cursor: pointer;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.service-icon {
+  background: #eef2ff;
+  color: #4f46e5;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.service-info {
+  flex: 1;
+}
+
+.service-title {
+  font-weight: 600;
+}
+
+.service-desc {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.service-badge {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.b-active { background: #d1fae5; color: #065f46; }
+.b-live { background: #dbeafe; color: #1e40af; }
+.b-report { background: #fef3c7; color: #92400e; }
+.b-alert { background: #fee2e2; color: #991b1b; }
+
+/* -------------- CHART CARDS -------------- */
+
+.chart-card h3,
+.chart-card h4 {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* -------------- NEWS - EVENTS -------------- */
+
+.card {
+  padding: 18px;
+}
+
+.news-list li,
+.events-list li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.news-list li:last-child,
+.events-list li:last-child {
+  border-bottom: none;
+}
+
+.news-list li span {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.events-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-small {
+  background: #4f46e5;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.btn-small:hover {
+  background: #3e3abf;
+}
+
+/* -------------- MODAL -------------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+}
+
+.modal-content {
+  width: 360px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  animation: pop 0.25s ease;
+}
+
+@keyframes pop {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.btn-primary {
+  padding: 8px 14px;
+  background: #4f46e5;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #3e3abf;
+}
+
+/* -------------- FOOTER -------------- */
+
+.footer {
+  text-align: center;
+  margin-top: 35px;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* -------------- RESPONSIVE -------------- */
+
+@media (max-width: 1000px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .header-right {
+    width: 100%;
+  }
+
+  .search-box {
+    flex: 1;
+  }
+}
